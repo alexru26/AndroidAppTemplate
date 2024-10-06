@@ -1,6 +1,15 @@
 ![logo](https://github.com/user-attachments/assets/fade345f-2d83-4e3a-848f-6e06332c12a0)
 This is a simple template for Android apps that follows best practices.
 
+## Useful Features
+- UI with Android Compose
+- Library management with Kotlin DSL
+- Modularization
+- Dependency injection with Dagger-Hilt
+- Network calls with OkHttp and Retrofit
+- Local storage with Room
+- Navigation with Navigation Compose
+
 ## Getting Started
 1. Create a repository that uses this repository as a template
 2. Open the project in Android Studio
@@ -16,12 +25,3 @@ This is a simple template for Android apps that follows best practices.
 
 ## How to Use
 If you're unsure what to do, I highly recommend [*Clean Android Architecture*](https://www.packtpub.com/en-us/product/clean-android-architecture-9781803234588) by Alexandru Dumbravan. The book is somewhat outdated, but it still has a lot of good information about clean architecture. I also recommend videos by Philipp Lackner. He has some good videos about multi-moduled projects and clean architecture. My project [*Dreaming Machine*[(https://github.com/alexru26/DreamingMachine) can also help since it uses this template. There is a decent amount of flexibility with this template, so you can do whatever you want!
-
-## Useful Features
-- UI with Android Compose
-- Library management with Kotlin DSL
-- Modularization
-- Dependency injection with Dagger-Hilt
-- Network calls with OkHttp and Retrofit
-- Local storage with Room
-- Navigation with Navigation Compose
