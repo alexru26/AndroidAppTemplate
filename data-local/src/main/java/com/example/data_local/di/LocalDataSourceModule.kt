@@ -1,6 +1,7 @@
 package com.example.data_local.di
 
 import com.example.data_local.source.LocalDataSourceImpl
+import com.example.data_repository.data_source.LocalDataSource
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

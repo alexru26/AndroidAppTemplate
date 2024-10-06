@@ -1,5 +1,6 @@
 package com.example.data_remote.di
 
+import com.example.data_remote.networking.Api
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -25,17 +26,17 @@ class NetworkModule {
         .connectTimeout(15, TimeUnit.SECONDS)
         .build()
 
-//    @Provides
-//    @Singleton
-//    fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit = Retrofit.Builder()
-//        .baseUrl(DiscographyApi.BASE_URL)
-//        .client(okHttpClient)
-//        .addConverterFactory(MoshiConverterFactory.create())
-//        .build()
+    @Provides
+    @Singleton
+    fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit = Retrofit.Builder()
+        .baseUrl(Api.BASE_URL)
+        .client(okHttpClient)
+        .addConverterFactory(MoshiConverterFactory.create())
+        .build()
 
-//    @Provides
-//    @Singleton
-//    fun provideDiscographyApi(retrofit: Retrofit): DiscographyApi =
-//        retrofit.create(DiscographyApi::class.java)
+    @Provides
+    @Singleton
+    fun provideDiscographyApi(retrofit: Retrofit): Api =
+        retrofit.create(Api::class.java)
 
 }
