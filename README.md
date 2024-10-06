@@ -14,6 +14,9 @@ This is a simple template for Android apps that follows best practices.
 8. Sync Gradle scripts in the File menu. You can also press ```Ctrl+Shift+O```.
 9. Clean and rebuild the project in the Build menu.
 
+## How to Use
+If you're unsure what to do, I highly recommend [*Clean Android Architecture*](https://www.packtpub.com/en-us/product/clean-android-architecture-9781803234588) by Alexandru Dumbravan. The book is somewhat outdated, but it still has a lot of good information about clean architecture. I also recommend videos by Philipp Lackner. He has some good videos about multi-moduled projects and clean architecture. My project [*Dreaming Machine*[(https://github.com/alexru26/DreamingMachine) can also help since it uses this template. There is a decent amount of flexibility with this template, so you can do whatever you want!
+
 ## Useful Features
 - UI with Android Compose
 - Library management with Kotlin DSL
